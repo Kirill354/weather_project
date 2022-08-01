@@ -1,0 +1,25 @@
+@import './normalize.css';
+@import './header.css';
+@import './main.css';
+@import './media.css';
+
+
+:root {
+    --blue: #498CEC;
+}
+
+
+body {
+    min-width: 320px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    background-color: var(--blue);
+}
+
+.container {
+    max-width: 1236px;
+    margin: 0 auto;
+    padding: 75px 15px;
+}
